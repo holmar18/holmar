@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/holmar/static/css/main.176d9d5f.css",
+    "main.js": "/holmar/static/js/main.1600429c.js",
+    "static/media/Holmar-Karl-Holmarsson-CV.pdf": "/holmar/static/media/Holmar-Karl-Holmarsson-CV.6690a5c5968909c35218.pdf",
+    "static/media/chatIO.png": "/holmar/static/media/chatIO.04189053d72b1c9af7c6.png",
+    "static/media/cartoon-1.png": "/holmar/static/media/cartoon-1.17cb08ae0ce94ca12102.png",
+    "static/media/bensinvaktin_img.png": "/holmar/static/media/bensinvaktin_img.24db331ce4a095f18853.png",
+    "static/media/aksturOgbokhald.png": "/holmar/static/media/aksturOgbokhald.2d8cbbd67dd4cf05a877.png",
+    "static/media/rps.png": "/holmar/static/media/rps.c917b7c35dd1fa8c5b05.png",
+    "static/media/Jquery.png": "/holmar/static/media/Jquery.31b34bbebd3a4db96def.png",
+    "static/media/MySoccerSkills.png": "/holmar/static/media/MySoccerSkills.2971a023a8246ae149d8.png",
+    "static/media/sudoku_ss.png": "/holmar/static/media/sudoku_ss.95177e4c4901d6cedf36.png",
+    "static/media/Cryptocurrency-API.png": "/holmar/static/media/Cryptocurrency-API.1d922c38ba2b614c835e.png",
+    "static/media/Auction-API.png": "/holmar/static/media/Auction-API.1095ad689e0d465b6401.png",
+    "static/media/tmp-bg.jpg": "/holmar/static/media/tmp-bg.a6fc5b9edee3723cf676.jpg",
+    "static/media/hangman.png": "/holmar/static/media/hangman.5e9511445fa010f9f626.png",
+    "static/media/tip-calculator-fe.png": "/holmar/static/media/tip-calculator-fe.5627965c69c4403dba70.png",
+    "index.html": "/holmar/index.html",
+    "main.176d9d5f.css.map": "/holmar/static/css/main.176d9d5f.css.map",
+    "main.1600429c.js.map": "/holmar/static/js/main.1600429c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.176d9d5f.css",
+    "static/js/main.1600429c.js"
+  ]
+}
