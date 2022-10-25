@@ -3,10 +3,16 @@ import './header.css';
 import CTA from './CTA';
 import ME from '../../assets/cartoon-1.png';
 import HeaderSocials from './HeaderSocials';
+import { Helmet } from 'react-helmet';
 
 const Header = () => {
 	return (
 		<header>
+			<Helmet>
+				<title>My portfolio</title>
+				<meta name='Holmar portfolio' content='Fullstack developer portfolio' />
+			</Helmet>
+
 			<div className='container header_container'>
 				<h5>Hello I'm</h5>
 				<h1>Hólmar Karl</h1>
