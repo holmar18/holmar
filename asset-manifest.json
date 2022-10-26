@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/holmar/static/css/main.176d9d5f.css",
-    "main.js": "/holmar/static/js/main.0b5d7d50.js",
+    "main.js": "/holmar/static/js/main.5a1987cc.js",
     "static/media/Holmar-Karl-Holmarsson-CV.pdf": "/holmar/static/media/Holmar-Karl-Holmarsson-CV.830a26954693806d9cc4.pdf",
     "static/media/chatIO.png": "/holmar/static/media/chatIO.04189053d72b1c9af7c6.png",
     "static/media/cartoon-1.png": "/holmar/static/media/cartoon-1.17cb08ae0ce94ca12102.png",
@@ -18,10 +18,10 @@
     "static/media/tip-calculator-fe.png": "/holmar/static/media/tip-calculator-fe.5627965c69c4403dba70.png",
     "index.html": "/holmar/index.html",
     "main.176d9d5f.css.map": "/holmar/static/css/main.176d9d5f.css.map",
-    "main.0b5d7d50.js.map": "/holmar/static/js/main.0b5d7d50.js.map"
+    "main.5a1987cc.js.map": "/holmar/static/js/main.5a1987cc.js.map"
   },
   "entrypoints": [
     "static/css/main.176d9d5f.css",
-    "static/js/main.0b5d7d50.js"
+    "static/js/main.5a1987cc.js"
   ]
 }
