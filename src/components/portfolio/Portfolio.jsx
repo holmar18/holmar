@@ -1,9 +1,10 @@
 import React from 'react';
 import './portfolio.css';
 import data from './Projects-Data';
+// Google analytics
+import { analyticsClickEvent } from '../../analytics/analytics';
 
 const Portfolio = () => {
-	console.log(data);
 	return (
 		<section id='portfolio'>
 			<h5>My Recent Work</h5>
@@ -22,12 +23,36 @@ const Portfolio = () => {
 								<p className='portfolio-item-description'>{descrition}</p>
 								<div className='portfolio_item-cta'>
 									{github && (
-										<a href={github} className='btn' target='_blank'>
+										<a
+											href={github}
+											className='btn'
+											target='_blank'
+											onClick={() =>
+												analyticsClickEvent(
+													'Projects',
+													'Project github',
+													'clicked',
+													title
+												)
+											}
+										>
 											Github
 										</a>
 									)}
 									{demo && (
-										<a href={demo} className='btn btn-primary' target='_blank'>
+										<a
+											href={demo}
+											className='btn btn-primary'
+											target='_blank'
+											onClick={() =>
+												analyticsClickEvent(
+													'Projects',
+													'Project live Demo',
+													'clicked',
+													title
+												)
+											}
+										>
 											Live Demo
 										</a>
 									)}

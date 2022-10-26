@@ -76,7 +76,7 @@ export default [
 		demo: 'https://hangman1988.netlify.app/',
 	},
 	{
-		id: 7,
+		id: 8,
 		image: BENSIN,
 		title: 'BensinVaktin',
 		yearMade: 'Jul 24, 2021',
@@ -85,7 +85,7 @@ export default [
 		demo: 'https://bensinvaktin.netlify.app/',
 	},
 	{
-		id: 8,
+		id: 9,
 		image: MYSOCCERSKILLS,
 		title: 'MySoccerSkills',
 		yearMade: 'Apr 30, 2022',
@@ -95,7 +95,7 @@ export default [
 		demo: 'https://fnd.io/#/is/iphone-app/1616905890-mysoccerskills-by-holmar-karl-holmarsson',
 	},
 	{
-		id: 9,
+		id: 10,
 		image: TIPCALCULATOR,
 		title: 'Tip Calculator',
 		yearMade: 'Oct 16, 2022',
@@ -104,12 +104,12 @@ export default [
 		demo: 'https://holmar-tip-calculator.netlify.app/',
 	},
 	{
-		id: 10,
+		id: 11,
 		image: RPS,
 		title: 'Rock Paper Scissor',
 		yearMade: 'Oct 18, 2022',
 		descrition: 'Frontend Mentor challange - just for practice.',
-		github: 'https://app.netlify.com/sites/holmar-rock-paper-scissor',
+		github: 'https://github.com/holmar18/frontend-mentor-rock-paper-scissors',
 		demo: 'https://holmar-rock-paper-scissor.netlify.app/',
 	},
 ];

@@ -8,6 +8,11 @@ import Portfolio from '../src/components/portfolio/Portfolio';
 import Testimonials from '../src/components/testimonials/Testimonials';
 import Contact from '../src/components/contact/Conctact';
 import Footer from '../src/components/footer/Footer';
+// Google anal.
+import ReactGa from 'react-ga';
+// Initialize google analitycs
+const TRACKING_ID = 'UA-194827412-1';
+ReactGa.initialize(TRACKING_ID);
 
 const App = () => {
 	return (

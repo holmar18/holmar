@@ -7,3 +7,7 @@ Check out my github.
 ##### [Holmar Github](https://github.com/holmar18)
 
 ---
+
+##### TODO
+
+- Add Firebase and connect the input

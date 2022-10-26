@@ -3,8 +3,12 @@ import './contact.css';
 import { MdOutlineEmail } from 'react-icons/md';
 import { RiMessengerLine } from 'react-icons/ri';
 import { BsWhatsapp } from 'react-icons/bs';
+// hooks
+import { useContactForm } from '../../hooks/useContactForm';
 
 const Conctact = () => {
+	const { handleInput, handleSubmit, values, errors } = useContactForm();
+
 	return (
 		<section id='contact'>
 			<h5>Get In Touch</h5>
@@ -38,20 +42,49 @@ const Conctact = () => {
 				{/* END OF CONTACT OPTIONS */}
 				{/* SEND EMAIL DIRECTLY FROM JS : https://youtu.be/G-Cr00UYokU?t=10881 */}
 				<form action=''>
+					{errors.nameErr && (
+						<label style={{ fontSize: '0.9rem', color: '#d91818' }}>
+							<h4>{errors.errMsg}</h4>
+						</label>
+					)}
 					<input
 						type='text'
 						name='name'
 						placeholder='Your Full Name'
 						required
+						value={values.name || ''}
+						onChange={(e) => handleInput('name', e.target.value)}
+						style={errors.nameErr ? { border: '0.2rem solid #d91818' } : null}
 					/>
-					<input type='email' name='email' placeholder='Your Email' required />
+					{errors.emailErr && (
+						<label style={{ fontSize: '0.9rem', color: '#d91818' }}>
+							<h4>{errors.errMsg}</h4>
+						</label>
+					)}
+					<input
+						type='email'
+						name='email'
+						placeholder='Your Email'
+						required
+						value={values.email || ''}
+						onChange={(e) => handleInput('email', e.target.value)}
+						style={errors.emailErr ? { border: '0.2rem solid #d91818' } : null}
+					/>
+					{errors.msgErr && (
+						<label style={{ fontSize: '0.9rem', color: '#d91818' }}>
+							<h4>{errors.errMsg}</h4>
+						</label>
+					)}
 					<textarea
 						name='messsage'
 						rows='7'
 						placeholder='Your message'
 						required
+						value={values.msg || ''}
+						onChange={(e) => handleInput('msg', e.target.value)}
+						style={errors.msgErr ? { border: '0.2rem solid #d91818' } : null}
 					></textarea>
-					<button type='submit' className='btn btn-primary'>
+					<button className='btn btn-primary' onClick={(e) => handleSubmit(e)}>
 						Send Message
 					</button>
 				</form>
