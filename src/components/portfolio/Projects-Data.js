@@ -9,6 +9,8 @@ import HANGMAN from '../../assets/Projects/hangman.png';
 import MYSOCCERSKILLS from '../../assets/Projects/MySoccerSkills.png';
 import TIPCALCULATOR from '../../assets/Projects/tip-calculator-fe.png';
 import RPS from '../../assets/Projects/rps.png';
+import IACARD from '../../assets/Projects/inter-card.jpg';
+import SPACETOUR from '../../assets/Projects/space-tourism.jpg';
 
 export default [
 	{
@@ -111,5 +113,24 @@ export default [
 		descrition: 'Frontend Mentor challange - just for practice.',
 		github: 'https://github.com/holmar18/frontend-mentor-rock-paper-scissors',
 		demo: 'https://holmar-rock-paper-scissor.netlify.app/',
+	},
+	{
+		id: 12,
+		image: IACARD,
+		title: 'Interactive card input',
+		yearMade: 'Oct 24, 2022',
+		descrition: 'Frontend Mentor challange - just for practice.',
+		github:
+			'https://github.com/holmar18/frontend-mentor-interactive-card-details-form',
+		demo: 'https://holmar-card-details.netlify.app/',
+	},
+	{
+		id: 13,
+		image: SPACETOUR,
+		title: 'Space tourism',
+		yearMade: 'Oct 31, 2022',
+		descrition: 'Frontend Mentor challange - just for practice.',
+		github: 'https://github.com/holmar18/frontend-mentor-space-tourism-website',
+		demo: 'https://holmar-space-tourism.netlify.app/',
 	},
 ];
