@@ -8,6 +8,6 @@ Check out my github.
 
 ---
 
-##### TODO
+##### Push changes
 
-- Add Firebase and connect the input
+- git push -f origin master:gh-pages
