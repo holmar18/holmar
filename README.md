@@ -1,4 +1,3 @@
----
-Check out my github.
-##### [Holmar Github](https://github.com/holmar18)
----
+# Check out my github.
+
+[Holmar Github](https://github.com/holmar18)
