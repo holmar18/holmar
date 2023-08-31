@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/holmar/static/css/main.176d9d5f.css",
-    "main.js": "/holmar/static/js/main.2acc07ef.js",
+    "main.js": "/holmar/static/js/main.ebcaa5c8.js",
     "static/media/Holmar-Karl-Holmarsson-CV.pdf": "/holmar/static/media/Holmar-Karl-Holmarsson-CV.1fb6902309367abd7087.pdf",
     "static/media/chatIO.png": "/holmar/static/media/chatIO.04189053d72b1c9af7c6.png",
     "static/media/cartoon-1.png": "/holmar/static/media/cartoon-1.17cb08ae0ce94ca12102.png",
@@ -16,14 +16,15 @@
     "static/media/Auction-API.png": "/holmar/static/media/Auction-API.1095ad689e0d465b6401.png",
     "static/media/inter-card.jpg": "/holmar/static/media/inter-card.140a6f6d96c2e2c6a592.jpg",
     "static/media/tmp-bg.jpg": "/holmar/static/media/tmp-bg.a6fc5b9edee3723cf676.jpg",
+    "static/media/GITSEARCH.jpg": "/holmar/static/media/GITSEARCH.6bfa96bfe19191285977.jpg",
     "static/media/hangman.png": "/holmar/static/media/hangman.5e9511445fa010f9f626.png",
     "static/media/tip-calculator-fe.png": "/holmar/static/media/tip-calculator-fe.5627965c69c4403dba70.png",
     "index.html": "/holmar/index.html",
     "main.176d9d5f.css.map": "/holmar/static/css/main.176d9d5f.css.map",
-    "main.2acc07ef.js.map": "/holmar/static/js/main.2acc07ef.js.map"
+    "main.ebcaa5c8.js.map": "/holmar/static/js/main.ebcaa5c8.js.map"
   },
   "entrypoints": [
     "static/css/main.176d9d5f.css",
-    "static/js/main.2acc07ef.js"
+    "static/js/main.ebcaa5c8.js"
   ]
 }
