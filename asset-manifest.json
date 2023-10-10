@@ -1,8 +1,7 @@
 {
   "files": {
     "main.css": "/holmar/static/css/main.1060570d.css",
-    "main.js": "/holmar/static/js/main.175931f3.js",
-    "static/media/Holmar-Karl-Holmarsson-CV.pdf": "/holmar/static/media/Holmar-Karl-Holmarsson-CV.1fb6902309367abd7087.pdf",
+    "main.js": "/holmar/static/js/main.807d09bc.js",
     "static/media/chatIO.png": "/holmar/static/media/chatIO.04189053d72b1c9af7c6.png",
     "static/media/me.png": "/holmar/static/media/me.8bc313534a4423f6ed70.png",
     "static/media/bensinvaktin_img.png": "/holmar/static/media/bensinvaktin_img.24db331ce4a095f18853.png",
@@ -17,12 +16,13 @@
     "static/media/inter-card.jpg": "/holmar/static/media/inter-card.140a6f6d96c2e2c6a592.jpg",
     "static/media/GITSEARCH.jpg": "/holmar/static/media/GITSEARCH.6bfa96bfe19191285977.jpg",
     "static/media/tip-calculator-fe.png": "/holmar/static/media/tip-calculator-fe.5627965c69c4403dba70.png",
+    "static/media/Holmar-Karl-Holmarsson-CV.pdf": "/holmar/static/media/Holmar-Karl-Holmarsson-CV.690f7363236cb52ff696.pdf",
     "index.html": "/holmar/index.html",
     "main.1060570d.css.map": "/holmar/static/css/main.1060570d.css.map",
-    "main.175931f3.js.map": "/holmar/static/js/main.175931f3.js.map"
+    "main.807d09bc.js.map": "/holmar/static/js/main.807d09bc.js.map"
   },
   "entrypoints": [
     "static/css/main.1060570d.css",
-    "static/js/main.175931f3.js"
+    "static/js/main.807d09bc.js"
   ]
 }
