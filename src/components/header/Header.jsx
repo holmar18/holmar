@@ -10,7 +10,10 @@ const Header = () => {
     <header>
       <Helmet>
         <title>My portfolio</title>
-        <meta name='Holmar portfolio' content='Fullstack developer portfolio' />
+        <meta
+          name='Holmar portfolio'
+          content='Full stack developer portfolio'
+        />
       </Helmet>
 
       <div className='container header_container'>
