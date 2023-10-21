@@ -1,67 +1,67 @@
 .portfolio_container {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	gap: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
 }
 
 .portfolio_item {
-	background: var(--color--bg-variant);
-	padding: 1.3rem;
-	border-radius: 2rem;
-	border: 1px solid transparent;
-	transition: var(--transition);
+  background: var(--color--bg-variant);
+  padding: 1.3rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  transition: var(--transition);
 }
 
 .portfolio_item:hover {
-	border-color: var(--color-primary--variant);
-	background: transparent;
+  border-color: var(--color-primary--variant);
+  background: transparent;
 }
 
 .portfolio_item-image {
-	border-radius: 1.5rem;
-	overflow: hidden;
-	margin-bottom: 1.5rem;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
 }
 
 .portfolio_item-image img {
-	object-fit: fill;
+  object-fit: fill;
 }
 
 .portfolio_item h3 {
-	margin: 1.2 0 2rem;
+  margin: 1.2 0 2rem;
 }
 
 .portfolio_item-cta {
-	display: flex;
-	gap: 1rem;
-	margin-bottom: 1rem;
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
 }
 
 .portfolio-item-description {
-	margin-top: 1rem;
-	margin-bottom: 1rem;
-	font-size: 0.8rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 0.8rem;
 }
 
 .portfolio-date {
-	font-size: 0.7rem;
-	color: var(--color--light);
+  font-size: 0.7rem;
+  color: var(--color--light);
 }
 
 /* =================== MEDIUM QUERIES (MEDIUM DEVICES) ==================*/
 
 @media screen and (max-width: 1024px) {
-	.portfolio_container {
-		grid-template-columns: 1fr 1fr;
-		gap: 1.2rem;
-	}
+  .portfolio_container {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
+  }
 }
 
 /* =================== MEDIUM QUERIES (SMALL DEVICES) ==================*/
 
 @media screen and (max-width: 600px) {
-	.portfolio_container {
-		grid-template-columns: 1fr;
-		gap: 1rem;
-	}
+  .portfolio_container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
 }

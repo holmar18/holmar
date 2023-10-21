@@ -1,57 +1,51 @@
-import React from 'react';
-import './footer.css';
-import { FaFacebookF } from 'react-icons/fa';
-import { FiInstagram } from 'react-icons/fi';
-import { IoLogoTwitter } from 'react-icons/io';
+import React from "react";
+import "./footer.css";
+import {FaFacebookF} from "react-icons/fa";
 
 const Footer = () => {
-	return (
-		<footer>
-			<a href='#' className='footer_logo'>
-				Holmar
-			</a>
+  return (
+    <footer>
+      <a href='#' className='footer_logo' aria-label='Holmar Homepage'>
+        Holmar
+      </a>
 
-			<ul className='permalinks'>
-				<li>
-					<a href='#'>Home</a>
-				</li>
-				<li>
-					<a href='#about'>About</a>
-				</li>
-				<li>
-					<a href='#experience'>Experience</a>
-				</li>
-				{/* <li>
-					<a href='#services'>Services</a>
-				</li> */}
-				<li>
-					<a href='#portfolio'>Portfolio</a>
-				</li>
-				{/* <li>
-					<a href='#testimonials'>Testimonials</a>
-				</li> */}
-				<li>
-					<a href='#contact'>Contact</a>
-				</li>
-			</ul>
+      <ul className='permalinks' aria-label='Footer Navigation'>
+        <li>
+          <a href='#' aria-label='Link to Homepage'>
+            Home
+          </a>
+        </li>
+        <li>
+          <a href='#about' aria-label='Link to About section'>
+            About
+          </a>
+        </li>
+        <li>
+          <a href='#experience' aria-label='Link to Experience section'>
+            Experience
+          </a>
+        </li>
+        <li>
+          <a href='#portfolio' aria-label='Link to Portfolio section'>
+            Portfolio
+          </a>
+        </li>
+        <li>
+          <a href='#contact' aria-label='Link to Contact section'>
+            Contact
+          </a>
+        </li>
+      </ul>
 
-			<div className='footer_socials'>
-				<a href='https://www.facebook.com/holmijj'>
-					<FaFacebookF />
-				</a>
-				{/* <a href='https://instagram.com'>
-					<FiInstagram />
-				</a>
-				<a href='https://twitter.com'>
-					<IoLogoTwitter />
-				</a> */}
-			</div>
-
-			{/* <div className='footer_copyright'>
-				<small>&copy; Holmar Karl. All rights reserved</small>
-			</div> */}
-		</footer>
-	);
+      <div className='footer_socials'>
+        <a
+          href='https://www.facebook.com/holmijj'
+          aria-label='Link to Facebook'>
+          <FaFacebookF />
+        </a>
+      </div>
+    </footer>
+  );
 };
 
 export default Footer;

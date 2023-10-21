@@ -1,7 +1,7 @@
-import React from 'react';
-import CV from '../../assets/Holmar-Karl-Holmarsson-CV.pdf';
+import React from "react";
+import CV from "../../assets/Holmar-Karl-Holmarsson-CV.pdf";
 // Google analytics
-import { analyticsClickEvent } from '../../analytics/analytics';
+import {analyticsClickEvent} from "../../analytics/analytics";
 
 /**
  *
@@ -9,33 +9,33 @@ import { analyticsClickEvent } from '../../analytics/analytics';
  *
  */
 const CTA = () => {
-	return (
-		<div className='cta'>
-			<a
-				href={CV}
-				className='btn'
-				onClick={() =>
-					analyticsClickEvent('download', 'Btn click', 'CV', 'Download CV')
-				}
-			>
-				Download CV
-			</a>
-			<a
-				href='#contact'
-				className='btn btn-primary'
-				onClick={() =>
-					analyticsClickEvent(
-						'contact',
-						'Btn click',
-						'top contact btn',
-						'contact'
-					)
-				}
-			>
-				Contact
-			</a>
-		</div>
-	);
+  return (
+    <div className='cta'>
+      <a
+        href={CV}
+        className='btn'
+        onClick={() =>
+          analyticsClickEvent("download", "Btn click", "CV", "Download CV")
+        }
+        aria-label='Download CV button'>
+        Download CV
+      </a>
+      <a
+        href='#contact'
+        className='btn btn-primary'
+        onClick={() =>
+          analyticsClickEvent(
+            "contact",
+            "Btn click",
+            "top contact btn",
+            "contact"
+          )
+        }
+        aria-label='Contact button'>
+        Contact
+      </a>
+    </div>
+  );
 };
 
 export default CTA;

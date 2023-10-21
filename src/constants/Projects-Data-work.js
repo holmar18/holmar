@@ -10,6 +10,7 @@ const dataWork = [
       "IOS personal soccer training App I made for a small company in Iceland.",
     github: false,
     demo: "https://fnd.io/#/is/iphone-app/1616905890-mysoccerskills-by-holmar-karl-holmarsson",
+    video: "https://streamable.com/7d0fku",
   },
 ];
 

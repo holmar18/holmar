@@ -22,7 +22,7 @@ const About = () => {
             <article className='about_card'>
               <FaAward className='about_icon' />
               <h5>Experience</h5>
-              <small>1/2 Years Working</small>
+              <small>1 Years Working</small>
             </article>
 
             <article className='about_card'>
@@ -39,13 +39,17 @@ const About = () => {
           </div>
 
           <p>
-            I am a computer science graduate from Reykjavik University, Iceland.
-            About 16 years ago my interest in programming was sparked when I
-            started the middle school that journey only lasted for one semester
-            and I had to start working full-time to support myself, but ever
-            since then I've always been very much interested in programming, but
-            it wasn´t until 2018 I decided to get a BSc degree so I could learn
-            more from people who are smarter than me.
+            I am a Computer Science graduate from Reykjavik University, Iceland,
+            where my profound interest in programming was initially ignited
+            approximately 16 years ago during a brief yet influential stint in
+            high school. Unfortunately, due to circumstances, I had to embark on
+            full-time employment to sustain myself, halting my educational
+            pursuits temporarily. Despite this setback, my passion for
+            programming persisted, eventually culminating in my decision to
+            pursue a Bachelor of Science degree in 2018. This academic endeavor
+            not only provided me with a structured learning environment but also
+            allowed me to glean insights from intellectually superior
+            individuals.
           </p>
 
           <a href='#contact' className='btn btn-primary'>

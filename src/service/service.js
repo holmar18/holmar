@@ -1,12 +1,7 @@
-import {
-	collection,
-	addDoc,
-	Timestamp,
-	getFirestore,
-} from 'firebase/firestore';
+import {collection, addDoc, Timestamp, getFirestore} from "firebase/firestore";
 // firebase
-import firebaseConfig from './firebaseConfig';
-import { initializeApp } from 'firebase/app';
+import firebaseConfig from "./firebaseConfig";
+import {initializeApp} from "firebase/app";
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
@@ -17,10 +12,10 @@ const db = getFirestore(app);
  * @param {string} message
  */
 export const PostFormData = async (name, email, message) => {
-	await addDoc(collection(db, 'contactform'), {
-		name: name,
-		email: email,
-		message: message,
-		date: Timestamp.now(),
-	});
+  await addDoc(collection(db, "contactform"), {
+    name: name,
+    email: email,
+    message: message,
+    date: Timestamp.now(),
+  });
 };
